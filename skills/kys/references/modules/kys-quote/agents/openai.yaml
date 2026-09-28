@@ -1,0 +1,4 @@
+interface:
+  display_name: "kys-quote"
+  short_description: "报价排版：将已确认方案制作成 HTML，按需导出微信图片"
+  default_prompt: "使用 $kys-quote 将已确认方案与报价制作成客户可读的 HTML，并按请求导图。"
