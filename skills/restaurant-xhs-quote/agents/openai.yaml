@@ -1,4 +1,0 @@
-interface:
-  display_name: "restaurant-xhs-quote"
-  short_description: "整理餐饮诊断、打法和配图，核算HTML方案报价并按需导出微信图片"
-  default_prompt: "使用 $restaurant-xhs-quote，根据已确认资料制作带诊断、报价和配图模板的餐饮小红书HTML方案。"
