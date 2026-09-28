@@ -1,0 +1,4 @@
+interface:
+  display_name: "kys-diagnosis"
+  short_description: "餐饮推广诊断：分析门店、客群与关键词，形成小红书方案及报价"
+  default_prompt: "使用 $kys-diagnosis 根据门店资料推进诊断、推广方案与报价。"
