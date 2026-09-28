@@ -1,19 +1,15 @@
-# 餐饮小红书报价技能
+# KY 公司内部业务工具箱
 
-个人使用的餐饮门店推广报价工具，辅助整理门店诊断、同行动作、市场机会、打法、费用和交付。最终方案由使用者决定。
-
-## 技能
-
-[restaurant-xhs-quote](skills/restaurant-xhs-quote/SKILL.md)
-
-支持生成 HTML 报价方案，确认后导出微信图片；持续整理使用者已确认的判断经验。
+统一入口 `kys`，包含历史报价查询、餐饮小红书诊断与方案报价、通用已确认报价排版。
 
 ## 安装
 
-需要先取得本私有仓库的访问权限，并完成 GitHub 登录。
-
 ```sh
-npx -y skills add jasonwong363/- --skill restaurant-xhs-quote -g
+npx skills add jasonwong363/kyskill --skill kys -g
 ```
 
-本仓库只保存技能及配套资源，不包含客户方案、截图或本地测试记录。
+安装后使用 `$kys`。子模块位于 `skills/kys/references/modules/`。
+
+历史客户报价数据保存在本机 `~/.codex/knowledge/kys-pricing/`，不随仓库上传；使用查询功能前需自行配置。合同功能依赖独立安装的 `kys-contract`，本仓库不包含合同母版。
+
+仓库只包含技能规则、工具和通用样式，不包含客户报价库、客户方案截图或本地测试记录。
