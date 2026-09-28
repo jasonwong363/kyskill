@@ -1,0 +1,7 @@
+{
+  "data_file": "~/.codex/knowledge/kys-pricing/quotes.json",
+  "source_extract": "~/.codex/knowledge/kys-pricing/source-extract.json",
+  "product_catalog": "legacy-catalog.json",
+  "product_mapping": "product-mapping.json",
+  "product_review": "product-review.md"
+}
