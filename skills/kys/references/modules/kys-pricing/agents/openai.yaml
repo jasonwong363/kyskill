@@ -1,0 +1,4 @@
+interface:
+  display_name: "kys-pricing"
+  short_description: "报价与产品库：查历史报价、旧价目、评论截流与近期产品频次"
+  default_prompt: "使用 $kys-pricing 查询历史报价，列出配置、金额口径、来源与待核对项。"
