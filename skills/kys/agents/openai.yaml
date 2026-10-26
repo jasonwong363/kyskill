@@ -1,4 +1,4 @@
 interface:
   display_name: "kys"
-  short_description: "KY 业务工具箱：按任务调用诊断、历史报价查询、报价排版和合同排版"
+  short_description: "KY 客户协作：商户调研、需求分析、群内方案、诊断报价与合同分流"
   default_prompt: "使用 $kys 判断当前业务阶段并调用对应子 Skill 完成交付。"
